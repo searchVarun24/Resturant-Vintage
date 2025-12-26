@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+}
+.navbar h1{
+    font-family: "Lobster", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.navbar h2{
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: url("images/Rectangle\ 10.png");
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: white;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: orange;
+    cursor: pointer;
+}
+
+/* ABOUT */
+.about {
+    padding: 50px;
+    text-align: center;
+    min-height: 200px;
+}
+.about h2{
+    font-family: "Lobster", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+/* MENU */
+.menu {
+    padding: 50px;
+    background: burlywood;
+}
+.menu h2{
+    font-family: "Lobster", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+   
+}
+
+.menu-card {
+    background:whitesmoke;
+    border-radius: 18px;
+    font-style: italic;
+    transition: 0.3s;
+    padding: 20px;
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.12);
+}
+.menu-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+.menu-card p{
+    font-weight: bold;
+}
+
+
+/* GALLERY */
+.gallery {
+    padding: 50px;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gallery-container img {
+    width: 250px;
+    margin: 10px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px;
+    background: #222;
+    color: white;
+    text-align: center;
+}
+.contact h2{
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
